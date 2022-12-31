@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:id="@+id/group1">
+        <item
+            android:id="@+id/itm_time"
+            android:icon="@drawable/stopwatch"
+            android:title="Set Timer"
+            app:showAsAction="ifRoom|withText" />
+        <item
+            android:id="@+id/itm_breaktime"
+            android:title="Set Break Time" />
+
+        <item
+            android:id="@+id/itm_infinity"
+            android:checkable="true"
+            android:checked="true"
+            android:title="Infinity run" />
+
+    </group>
+
+    <group android:id="@+id/group3">
+        <item
+            android:id="@+id/itm_about"
+            android:title="About" />
+
+    </group>
+
+
+</menu>
